@@ -23,11 +23,11 @@
     },
     "resourceGroupLocation": {
       "type": "string",
-      "defaultValue": "australiaeast"
+      "defaultValue": "eastus2"
     },
     "NestedResourceGroupName": {
       "type": "string",
-      "defaultValue": "SharedResourceGroup"
+      "defaultValue": "RG-Name-DevOpsDemo"
     },
     "adminPassword": {
       "type": "string",
@@ -78,21 +78,21 @@
     },
     "vaultName": {
       "type": "string",
-      "defaultValue": "MSMarcVault",
+      "defaultValue": "DevOpsDemo",
       "metadata": {
         "description": "Name of Key Vault that has a secret"
       }
     },
     "CrossResourceGroupName": {
       "type": "string",
-      "defaultValue": "SharedResources",
+      "defaultValue": "DevOpsDemo",
       "metadata": {
         "description": "Name of the Cross Resource Deployment Resource Group"
       }
     },
     "vaultResourceGroup": {
       "type": "string",
-      "defaultValue": "MSMarcVault",
+      "defaultValue": "DevOpsDemo",
       "metadata": {
         "description": "Resource Group of Key Vault that has a secret"
       }
