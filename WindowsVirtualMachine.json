@@ -4,7 +4,7 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
-      "defaultValue": "marc.kean",
+      "defaultValue": "Demo.Admin",
       "minLength": 1,
       "metadata": {
         "description": "Username for the Virtual Machine."
@@ -99,7 +99,7 @@
     },
     "secretUrlWithVersion1": {
       "type": "string",
-      "defaultValue": "https://msmarcvault.vault.azure.net/secrets/eJukebox-net-PK/73045146013f4a998ce13417598ec208",
+      "defaultValue": "https://devopsdemo.vault.azure.net/secrets/AzureEncryptionCert/762e98880c0c4c60a394b43189a93bcf",
       "metadata": {
         "description": "Url of the certificate in Key Vault"
       }
@@ -114,7 +114,7 @@
     }
   },
   "variables": {
-    "virtualNetworkName": "eJukeNetwork",
+    "virtualNetworkName": "DemoNet1",
     "addressPrefix": "192.168.0.0/16",
     "subnet1Prefix": "192.168.111.0/24",
     "subnet1Name": "First",

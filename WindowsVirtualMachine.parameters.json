@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0" ,
   "parameters": {
     "adminUsername": {
-      "value": "marc.kean"
+      "value": "demo.admin"
     },
     "dataDiskCount": {
       "value": 1
@@ -14,15 +14,15 @@
     "adminPassword": {
       "reference": {
         "keyVault": {
-          "id": "/subscriptions/6bb00255-5486-4db1-96ca-5baefc18b0b2/resourceGroups/MSMarcVault/providers/Microsoft.KeyVault/vaults/MSMarcVault"
+          "id": "/subscriptions/fdea0b82-9011-4f26-9d63-4e4b6ebaeb77/resourcegroups/DevOpsDemo/providers/Microsoft.KeyVault/vaults/devopsdemo"
         },
-        "secretName": "VMTestAdminPassword"
+        "secretName": "DemoVMAdminPassword"
       }
     },
     "VNCKey": {
       "reference": {
         "keyVault": {
-          "id": "/subscriptions/6bb00255-5486-4db1-96ca-5baefc18b0b2/resourceGroups/MSMarcVault/providers/Microsoft.KeyVault/vaults/MSMarcVault"
+          "id": "/subscriptions/fdea0b82-9011-4f26-9d63-4e4b6ebaeb77/resourcegroups/DevOpsDemo/providers/Microsoft.KeyVault/vaults/devopsdemo"
         },
         "secretName": "VNCKey"
       }
